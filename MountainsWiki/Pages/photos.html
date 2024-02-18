@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photos</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+            
+            .image-container {
+            display: flex;
+            justify-content: space-between; 
+            overflow: hidden;
+            max-width: 100%;
+            margin-bottom: 1%;
+            }
+    
+            .image-container img {
+            width: 19%; 
+            height: 300px; 
+            object-fit: cover; 
+            transition: transform 0.3s; /*all images in the container show up*/
+            }
+
+            .image-container img:hover {
+            transform: scale(1.1); /* increases hover size*/
+            }
+  
+            section {
+            display: -webkit-flex;
+            display: flex;
+            background-color: #ddd;
+            margin-top: 1%;
+            }
+
+            .content-container {
+            background-color: #ddd; 
+            padding: 20px; 
+            }
+
+           
+        </style>
+</head>
+
+<body style="background-color:rgb(70, 126, 190);">
+  <header>
+  <h1 style="text-align:left; color:rgb(255, 255, 255); font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 35px;">Mountains of the World</h1>
+  </header>
+        
+  <div class="topnav">
+    <a  href="home.html">Home</a>
+    <a href="wiki.html">Wiki</a>
+    <a class="active" href="photos.html">Photos</a>
+    <a href="about.html">About</a>
+  </div>
+        
+  <br>
+  <div class="content-container">
+
+  <h2 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Photo Gallery
+  </h2>
+  <br>
+  <h3 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Click on any image to go to learn more!</h3>
+  <div class="image-container">
+    <img src="../images/matterhorn.jpg" title="Matterhorn">
+    <img src="../images/Tre Cime di Lavardo.jpg" title="Tre Cime di Lavardo">
+    <img src="../images/Denali.png" title="Denali">
+    <img src="../images/Himalayas.jpg" title="Himalayas">
+    <img src="../images/Mont Blanc.png" title="Mont Blanc">
+  </div>
+  <div class="image-container">
+    <img src="../images/matterhorn.jpg" title="Matterhorn">
+    <img src="../images/Tre Cime di Lavardo.jpg" title="Tre Cime di Lavardo">
+    <img src="../images/Denali.png" title="Denali">
+    <img src="../images/Himalayas.jpg" title="Himalayas">
+    <img src="../images/Mont Blanc.png" title="Mont Blanc">
+  </div>
+  <div class="image-container">
+    <img src="../images/matterhorn.jpg" title="Matterhorn">
+    <img src="../images/Tre Cime di Lavardo.jpg" title="Tre Cime di Lavardo">
+    <img src="../images/Denali.png" title="Denali">
+    <img src="../images/Himalayas.jpg" title="Himalayas">
+    <img src="../images/Mont Blanc.png" title="Mont Blanc">
+  </div>
+  </div>  
+  <div class="footer">
+    <p style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Mountains of the World - Copyright 2024</p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mountains!</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+
+            .image-container {
+            display: flex;
+            justify-content: space-between; 
+            overflow: hidden;
+            max-width: 100%;
+            }
+    
+            .image-container img {
+            width: 19%; 
+            height: 300px; 
+            object-fit: cover; 
+            transition: transform 0.3s; 
+            }
+
+            .image-container img:hover {
+            transform: scale(1.1); /* size increases on hover */
+            }
+
+            section {
+            display: -webkit-flex;
+            display: flex;
+            background-color: #ddd;
+            margin-top: 1%;
+            }
+
+            .content-container {
+            background-color: #ddd; 
+            padding: 20px; 
+            margin-top: 1%;
+            }
+            
+            
+    </style>
+
+</head>
+
+<body style="background-color:rgb(70, 126, 190);">
+  <header>
+  <h1 style="text-align:left; color:rgb(255, 255, 255);  font-size: 35px;">Mountains of the World</h1>
+  </header>
+        
+  <div class="topnav">
+    <a class="active" href="home.html">Home</a>
+    <a href="wiki.html">Wiki</a>
+    <a href="photos.html">Photos</a>
+    <a href="about.html">About</a>
+  </div>
+  <div class="content-container">
+  <br>
+  <div class="image-container">
+    <img src="../images/matterhorn.jpg" title="Matterhorn">
+    <img src="../images/Tre Cime di Lavardo.jpg" title="Tre Cime di Lavardo">
+    <img src="../images/Denali.png" title="Denali">
+    <img src="../images/Himalayas.jpg" title="Himalayas">
+    <img src="../images/Mont Blanc.png" title="Mont Blanc">
+  </div>
+    
+  <h2 >Welcome to Mountains of the World, your ultimate online destination for everything mountains!</h2>
+    <section>
+      <nav>
+        <ul>
+          <li><a href="https://en.wikipedia.org/wiki/Mountain">Wikipedia</a></li>
+          <li><a href="https://www.nationalgeographic.com/science/article/mountains">National Geographic</a></li>
+          <li><a href="https://www.britannica.com/science/mountain-landform">Britannica</a></li>
+        </ul>
+      </nav>
+      </section>
+  </div>
+  <div class="footer">
+    <p>Mountains of the World - Copyright 2024</p>
+  </div>
+
+</body>
+</html>
